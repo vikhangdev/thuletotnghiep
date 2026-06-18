@@ -40,3 +40,9 @@ Toàn bộ màu và font khai báo ở đầu file `style.css`, trong khối `:r
 4. Sau 1–2 phút, trang sẽ có ở: `https://<tên-github-của-bạn>.github.io/<tên-repo>/`
 
 Vậy là xong — mở link lên kiểm tra lại một lượt trước khi gửi nhé.
+
+## Cập nhật code lên github
+1. Mở terminal
+2. git add .
+3. git commit -m "nội dung cần cmt"
+4. git push origin master
