@@ -544,7 +544,7 @@ button {
   .hero { padding: 140px 0 90px; }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 430px) {
   .hero-frame { padding: 40px 12px; }
   /*.letter-card { padding: 36px 24px; }*/
 
