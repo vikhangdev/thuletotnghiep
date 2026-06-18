@@ -545,8 +545,25 @@ button {
 }
 
 @media (max-width: 420px) {
-  .hero-frame { padding: 40px 20px; }
-  .letter-card { padding: 36px 24px; }
+  .hero-frame { padding: 40px 12px; }
+  /*.letter-card { padding: 36px 24px; }*/
+
+  /* 2. Thu nhỏ size chữ Tên để vừa vặn trên 1 dòng */
+  .hero-name {
+    font-size: 1.8rem !important; /* Khống chế size chữ vừa vặn */
+    white-space: nowrap;          /* Ép chữ tuyệt đối không tự động xuống dòng */
+  }
+
+  /* 3. Thu nhỏ size chữ Ngành học để ôm gọn trên màn hình đứng */
+  .hero-frame h2, 
+  .hero-frame .eyebrow {
+    font-size: 1rem !important;  /* Điều chỉnh lại size chữ tiêu đề ngành */
+  }
+
+  /* Giữ nguyên cấu trúc phần thư tay của bạn */
+  .letter-card { 
+    padding: 36px 24px; 
+  }
 }
 
 /* =========================================================
